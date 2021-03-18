@@ -89,12 +89,36 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    text-decoration: none;
 }
+
 .rowItem{
     display: flex;
     flex-direction: row;
     align-items: baseline;
     width: 75%;
+}
+/* .iconArrow{
+    background-color: #000;
+    color: #fff;
+    width: 29.6px;
+    height: 28.7px;
+
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.profileClass{
+    color: #fff;
+    text-decoration: none;
+}
+.profileClass:hover{
+    text-decoration: none;
+    color: burlywood;
+}
+.arrow{
+    color: rgb(72,67,67);
 }
 
 @media only screen and (max-width: 769px){
