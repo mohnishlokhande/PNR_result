@@ -9,13 +9,15 @@ export default class Home extends Component {
             <div className="mainContainer">
                 <div className="colClass">
                     <div className="rowClass">
-                        <div className="col-sm-12 col-md-3 profileCard">
-                            <img src={Profile} alt="name" style={{width:"180px",borderRadius:"16rem",margin:"10px"}} />
-                            <h3>Nitish Kumar</h3>
-                            <p>nitish1238bokaro@gmail.com</p>
-                            <Link to="/profile"><p className="profileClass"><b>Edit Profile &nbsp;&nbsp;<span className="fa fa-long-arrow-right"></span></b></p></Link>
+                        <div className="profileCard">
+                            <img src={Profile} alt="name" className="profileImg" />
+                            <div className="proCardCol">
+                                <h3>Nitish Kumar</h3>
+                                <p>nitish1238bokaro@gmail.com</p>
+                                <Link to="/profile"><p className="profileClass"><b>Edit Profile &nbsp;&nbsp;<span className="fa fa-long-arrow-right"></span></b></p></Link>
+                            </div>
                         </div>
-                        <div className="col-sm-0 col-md-8 orderCard">
+                        <div className="orderCard">
                             <div className="orderCardRow">
                                 <img src={Profile} alt="name" style={{width:"179px", height:"126px" ,borderRadius:"16pt" 
                                     }} />
@@ -36,6 +38,7 @@ export default class Home extends Component {
                             </div>
                         </div>
                     </div>
+                    <br/>
                     <div>
                         <div className="col-sm-12 col-md-3 menuCard">
                             <div className="menuItem">
