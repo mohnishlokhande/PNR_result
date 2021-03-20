@@ -65,7 +65,7 @@ export default class Profile extends Component {
                             <hr style={{color:"black",width:"100%",marginTop:"0",marginBottom:"1.5rem"}} />
                             <Link to="/home" className="menuItem">
                                 <div className="rowItem">
-                                    <span className="fas fa-money fa-lg"></span>&nbsp;&nbsp;
+                                    <span className="fa fa-google-wallet fa-lg"></span>&nbsp;&nbsp;
                                     <p><b>RailFeast Wallet</b></p>
                                 </div>
                                 <div className="iconArrow">
