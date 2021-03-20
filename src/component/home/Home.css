@@ -96,30 +96,40 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
     width: 100%;
     text-decoration: none;
+    color: rgba(0,0,0,0.85);
 }
 .menuItem:hover{
-    text-decoration: none;
+    text-decoration: none !important;
+    color: rgba(0,0,0,0.85);
 }
-
+.menuItem:hover > .iconArrow{
+    background-color: rgb(203,35,39) !important;
+}
 .rowItem{
     display: flex;
     flex-direction: row;
     align-items: baseline;
     width: 75%;
 }
-/* .iconArrow{
+.iconArrow{
     background-color: #000;
     color: #fff;
     width: 29.6px;
     height: 28.7px;
-
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
+
+.arrow{
+    color: #fff;
+    width: 29px;
+    height: 15px;
+}
 .profileClass{
     color: #fff;
     text-decoration: none;
@@ -128,9 +138,7 @@
     text-decoration: none;
     color: burlywood;
 }
-.arrow{
-    color: rgb(72,67,67);
-}
+
 .profileImg{
     width: 180px;
     border-radius: 16rem;
